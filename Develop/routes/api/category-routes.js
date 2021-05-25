@@ -50,7 +50,7 @@ router.put('/:id', (req, res) => {
     });
 
     if (!categoryData) {
-    res.status(404).json({ message: "No category can be created with that id"});
+    res.status(404).json({ message: "No category can be updated with that id"});
     return;
   }  
 
